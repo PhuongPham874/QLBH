@@ -104,5 +104,10 @@ namespace QLBH
             }
             conn.Close();
         }
+
+        private void tbTen_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

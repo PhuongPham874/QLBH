@@ -41,7 +41,7 @@
             // btXoa
             // 
             this.btXoa.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btXoa.Location = new System.Drawing.Point(508, 191);
+            this.btXoa.Location = new System.Drawing.Point(500, 197);
             this.btXoa.Name = "btXoa";
             this.btXoa.Size = new System.Drawing.Size(108, 55);
             this.btXoa.TabIndex = 13;
@@ -88,7 +88,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(225, 285);
+            this.dataGridView1.Location = new System.Drawing.Point(150, 271);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
             this.dataGridView1.RowTemplate.Height = 33;
@@ -111,6 +111,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::QLBH.Properties.Resources.anhnen1_011;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1127, 655);
             this.Controls.Add(this.btXoa);
             this.Controls.Add(this.tbGia);
@@ -119,6 +121,7 @@
             this.Controls.Add(this.lbTenmon);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lbXOAMon);
+            this.DoubleBuffered = true;
             this.Name = "fmXoamon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Xóa_món";

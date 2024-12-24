@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using HTDT;
+using WindowsFormsApp1;
 
 namespace QLBH
 {
@@ -49,6 +51,48 @@ namespace QLBH
         private void fmMenu_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void HoadonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHoadon HD = new frmHoadon();
+            HD.MdiParent = this;
+            HD.Show();
+        }
+
+        private void chiTiếtHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmChitiethoadon HD = new frmChitiethoadon();
+            HD.MdiParent = this;
+            HD.Show();
+        }
+
+        private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Nhanvien NV = new Nhanvien();
+            NV.MdiParent = this;
+            NV.Show();
+        }
+
+        private void hiểnThịDoanhThuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HienThiDoanhThu DT = new HienThiDoanhThu();
+            DT.MdiParent = this;
+            DT.Show();
+        }
+
+        private void thôngTinĐặtBànToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmThongTinDatBan Ban = new frmThongTinDatBan();
+            Ban.MdiParent = this;
+            Ban.Show();
+        }
+
+        private void bànToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBan Ban = new frmBan();
+            Ban.MdiParent = this;
+            Ban.Show();
         }
     }
 }

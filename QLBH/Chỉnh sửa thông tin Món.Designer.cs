@@ -79,6 +79,7 @@
             this.tbTen.Name = "tbTen";
             this.tbTen.Size = new System.Drawing.Size(281, 39);
             this.tbTen.TabIndex = 3;
+            this.tbTen.TextChanged += new System.EventHandler(this.tbTen_TextChanged);
             // 
             // tbGia
             // 
@@ -113,14 +114,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::QLBH.Properties.Resources.anhnen1_012;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1082, 701);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btLuu);
             this.Controls.Add(this.tbGia);
             this.Controls.Add(this.lbGia);
             this.Controls.Add(this.tbTen);
             this.Controls.Add(this.lbTenmon);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lbCSTTMon);
+            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fmChinhsuattMon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

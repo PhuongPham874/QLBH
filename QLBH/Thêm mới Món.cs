@@ -101,6 +101,9 @@ namespace QLBH
             
         }
 
-        
+        private void fmThemmoimon_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -40,7 +40,7 @@
             // btLuu
             // 
             this.btLuu.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btLuu.Location = new System.Drawing.Point(460, 197);
+            this.btLuu.Location = new System.Drawing.Point(468, 556);
             this.btLuu.Name = "btLuu";
             this.btLuu.Size = new System.Drawing.Size(108, 55);
             this.btLuu.TabIndex = 13;
@@ -51,7 +51,7 @@
             // tbGia
             // 
             this.tbGia.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbGia.Location = new System.Drawing.Point(673, 121);
+            this.tbGia.Location = new System.Drawing.Point(724, 257);
             this.tbGia.Name = "tbGia";
             this.tbGia.Size = new System.Drawing.Size(281, 39);
             this.tbGia.TabIndex = 12;
@@ -61,7 +61,7 @@
             // 
             this.lbGia.AutoSize = true;
             this.lbGia.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbGia.Location = new System.Drawing.Point(543, 124);
+            this.lbGia.Location = new System.Drawing.Point(598, 265);
             this.lbGia.Name = "lbGia";
             this.lbGia.Size = new System.Drawing.Size(120, 31);
             this.lbGia.TabIndex = 11;
@@ -71,7 +71,7 @@
             // tbTen
             // 
             this.tbTen.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTen.Location = new System.Drawing.Point(206, 118);
+            this.tbTen.Location = new System.Drawing.Point(193, 257);
             this.tbTen.Name = "tbTen";
             this.tbTen.Size = new System.Drawing.Size(281, 39);
             this.tbTen.TabIndex = 10;
@@ -81,7 +81,7 @@
             // 
             this.lbTenmon.AutoSize = true;
             this.lbTenmon.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTenmon.Location = new System.Drawing.Point(76, 121);
+            this.lbTenmon.Location = new System.Drawing.Point(63, 265);
             this.lbTenmon.Name = "lbTenmon";
             this.lbTenmon.Size = new System.Drawing.Size(124, 31);
             this.lbTenmon.TabIndex = 9;
@@ -92,7 +92,7 @@
             // 
             this.lbThemmoi.AutoSize = true;
             this.lbThemmoi.Font = new System.Drawing.Font("Times New Roman", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbThemmoi.Location = new System.Drawing.Point(274, 37);
+            this.lbThemmoi.Location = new System.Drawing.Point(265, 175);
             this.lbThemmoi.Name = "lbThemmoi";
             this.lbThemmoi.Size = new System.Drawing.Size(541, 42);
             this.lbThemmoi.TabIndex = 7;
@@ -104,18 +104,22 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1030, 302);
+            this.BackgroundImage = global::QLBH.Properties.Resources.anhnen1_011;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1030, 641);
             this.Controls.Add(this.btLuu);
             this.Controls.Add(this.tbGia);
             this.Controls.Add(this.lbGia);
             this.Controls.Add(this.tbTen);
             this.Controls.Add(this.lbTenmon);
             this.Controls.Add(this.lbThemmoi);
+            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fmThemmoimon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thêm mới Món";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fmThemmoimon_FormClosing);
+            this.Load += new System.EventHandler(this.fmThemmoimon_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

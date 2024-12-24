@@ -37,7 +37,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(123, 96);
+            this.dataGridView1.Location = new System.Drawing.Point(67, 123);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
             this.dataGridView1.RowTemplate.Height = 33;
@@ -53,7 +53,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbDanhsach.AutoSize = true;
             this.lbDanhsach.Font = new System.Drawing.Font("Times New Roman", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDanhsach.Location = new System.Drawing.Point(171, 25);
+            this.lbDanhsach.Location = new System.Drawing.Point(98, 35);
             this.lbDanhsach.Name = "lbDanhsach";
             this.lbDanhsach.Size = new System.Drawing.Size(342, 42);
             this.lbDanhsach.TabIndex = 3;
@@ -65,9 +65,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(680, 637);
+            this.BackgroundImage = global::QLBH.Properties.Resources.anhnen1_012;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(562, 739);
             this.Controls.Add(this.lbDanhsach);
             this.Controls.Add(this.dataGridView1);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fmQuanLyMon";
